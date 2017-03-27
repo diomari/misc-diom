@@ -1,0 +1,35 @@
+
+/*Content*/
+
+.content {
+    color: #333;
+}
+
+.link-primary {
+    color: #0000ff;
+}
+
+.link-primary:hover {
+    text-decoration: dotted;
+    color: #0000ff;
+}
+
+.link-info a.muted {
+    color: #333;
+}
+
+/*Custom Buttons*/
+
+.btn-dribbble {
+    background: #e64886;
+}
+
+.btn-outline-diom {
+    border-color: #0000ff;
+}
+
+.btn-outline-diom:hover {
+    background-color: #0000ff;
+    border-color: #0000ff;
+    color: #fff;
+}
