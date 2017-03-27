@@ -10,7 +10,6 @@
 }
 
 .link-primary:hover {
-    text-decoration: dotted;
     color: #0000ff;
 }
 
@@ -19,10 +18,6 @@
 }
 
 /*Custom Buttons*/
-
-.btn-dribbble {
-    background: #e64886;
-}
 
 .btn-outline-diom {
     border-color: #0000ff;
