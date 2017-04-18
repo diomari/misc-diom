@@ -1,0 +1,15 @@
+/* HEADER */
+
+.kiev-header {
+    background: url(images/bg_header.png) no-repeat top center;
+    color: #fff;
+}
+
+.countdown-area {
+    font-size: 5em;
+}
+
+.countdown-area .countdown-time {
+    font-size: .3em;
+    display: block;
+}
