@@ -1,5 +1,7 @@
 /* TYPOGRAPHY */
-
+body {
+    color: #fff;
+}
 .accent {
     color: #1789B5;
 }
@@ -12,7 +14,6 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    color: #fff;
 }
 
 .countdown-area {
@@ -46,7 +47,6 @@
 
 .prize-pool-area {
     background: #0F161B;
-    color: #fff;
     text-transform: uppercase;
 }
 
@@ -60,9 +60,64 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    color: #fff;
 }
 
 .venue-area h2 {
     font-size: 2.4em;
+}
+
+
+/* TEAM LIST */
+
+.team-list {
+    background: #0B1822;
+}
+
+.team-list .team-image {
+    width: 85%;
+    margin: 0 auto;
+    background: #071119;
+    border: 2px solid #294A58;
+}
+
+.team-list .team-container small {
+    font-size: .9em;
+    text-transform: uppercase;
+}
+
+.team-list .team-header {
+    margin: 0 auto;
+}
+
+
+/* TICKETS */
+
+.tickets-area {
+    background: linear-gradient(
+      rgba(0, 5, 20, 0.65),
+      rgba(0, 5, 20, 0.45)
+    ), url(images/bg_tickets.png) no-repeat center 55%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.tickets-area p {
+    font-size: 1.2em;
+}
+
+.sponsors-area {
+    background: #0F161B;
+}
+
+/* FOOTER */
+.footer-area {
+    background: #0D1114;
+}
+
+.footer-area .credits {
+    text-transform: uppercase;
+    font-size: 1.1em;
+    color: #2F475F;
 }
