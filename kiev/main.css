@@ -7,7 +7,11 @@
 /* HEADER */
 
 .kiev-header {
-    background: url(images/bg_header.png) repeat-x top center;
+    background: url(images/bg_header.png) no-repeat center 55%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     color: #fff;
 }
 
@@ -51,7 +55,7 @@
 
 .venue-area {
     text-transform: uppercase;
-    background: url(images/bg_venue.png)no-repeat center 55%;
+    background: url(images/bg_venue.png) no-repeat center 55%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
