@@ -1,7 +1,13 @@
+/* TYPOGRAPHY */
+
+.accent {
+    color: #1789B5;
+}
+
 /* HEADER */
 
 .kiev-header {
-    background: url(images/bg_header.png) no-repeat top center;
+    background: url(images/bg_header.png) repeat-x top center;
     color: #fff;
 }
 
@@ -12,4 +18,47 @@
 .countdown-area .countdown-time {
     font-size: .3em;
     display: block;
+}
+
+/* NAVIGATION */
+.main-navigation {
+    background: #0D1114;
+    border: 1px solid ##1F2E36;
+    box-shadow: 0 0 0 1px #1d262d;
+    font-size: 1.3em;
+}
+
+.main-navigation ul li {
+    margin: 0 5em;
+    text-transform: uppercase;
+}
+
+.main-navigation ul li a {
+    color: #fff;
+}
+
+
+/* PRIZE POOL */
+
+.prize-pool-area {
+    background: #0F161B;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+/* VENUE */
+
+.venue-area {
+    text-transform: uppercase;
+    background: url(images/bg_venue.png)no-repeat center 55%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
+
+.venue-area h2 {
+    font-size: 2.4em;
 }
