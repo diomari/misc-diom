@@ -1,0 +1,25 @@
+{
+  "name": "the-kiev-major",
+  "version": "1.0.0",
+  "description": "The Kiev Major redesign project.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diomari/diomari.github.io.git"
+  },
+  "keywords": [
+    "kiev",
+    "dota",
+    "html5",
+    "css3"
+  ],
+  "author": "Diomari Madulara & Shannen Sapar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diomari/diomari.github.io/issues"
+  },
+  "homepage": "https://github.com/diomari/diomari.github.io#readme"
+}
