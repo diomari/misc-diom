@@ -15,7 +15,11 @@
         border: 2px solid #294A58;
         box-shadow: 0 4px 10px 0 rgba(0,0,0,.8);
         .team-roster {
-            font-size: .7em;
+            display: none;
+            font-size: .65em;
+            li {
+                margin-bottom: 12px;
+            }
             span {
                 font-weight: bold;
             }
