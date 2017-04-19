@@ -38,6 +38,10 @@ body {
     text-transform: uppercase;
 }
 
+.main-navigation ul li:last-child:before {
+    border-left: 1px solid red;
+}
+
 .main-navigation ul li a {
     color: #fff;
 }
