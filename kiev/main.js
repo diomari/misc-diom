@@ -4,6 +4,7 @@ $( document ).ready(function() {
         $('.countdown-day').html(event.strftime('%D <span class="countdown-time">days</span>'));
         $('.countdown-hour').html(event.strftime('%H <span class="countdown-time">hours</span>'));
         $('.countdown-minute').html(event.strftime('%M <span class="countdown-time">minutes</span>'));
+        $('.countdown-second').html(event.strftime('%S <span class="countdown-time">seconds</span>'));
     });
 
     // Add hover effect on team list

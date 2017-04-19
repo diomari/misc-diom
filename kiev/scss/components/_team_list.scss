@@ -14,11 +14,20 @@
         background: #071119;
         border: 2px solid #294A58;
         box-shadow: 0 4px 10px 0 rgba(0,0,0,.8);
+        position: relative;
         .team-roster {
             display: none;
-            font-size: .65em;
+            font-size: .5em;
+            position: absolute;
+            top: 20%;
+            bottom: 0;
+            left: 0;
+            right: 0;
             li {
                 margin-bottom: 12px;
+                &:last-child{
+                    margin-bottom: 0;
+                }
             }
             span {
                 font-weight: bold;

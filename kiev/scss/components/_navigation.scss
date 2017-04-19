@@ -13,12 +13,21 @@
 
 .main-navigation ul li:last-child {
     margin: 0 0;
-    border-left: 1px solid $kuspawhite;
-    padding-left: 2em;
+    border-left: 1px solid $nav_bg_pop;
+    padding: 0 3em 0 4em;
+}
+
+.main-navigation ul li:nth-child(4) {
+    margin-right: 4em;
 }
 
 .main-navigation ul li a {
     color: $maskuspawhite;
     font-size: .8em;
     letter-spacing: .2em;
+    &:hover, &:focus{
+        text-decoration: none;
+        color: #1789B5;
+        transition: .5s;
+    }
 }
