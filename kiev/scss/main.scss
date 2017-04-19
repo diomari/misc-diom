@@ -1,0 +1,21 @@
+// The Kiev Major Main Style
+
+
+// Get Global Styles
+@import "components/variables";
+@import "components/links";
+@import "components/buttons";
+@import "components/general";
+
+// Get Component Styles
+@import "components/header";
+@import "components/navigation";
+@import "components/countdown";
+@import "components/prize_pool";
+@import "components/venue";
+@import "components/team_list";
+@import "components/tickets";
+@import "components/footer";
+
+// Get Fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400');

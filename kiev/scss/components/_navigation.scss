@@ -1,0 +1,24 @@
+.main-navigation {
+    background: $nav_bg;
+    border-top: 1px solid $nav_bg_pop;
+    border-bottom: 1px solid $nav_bg_pop;
+    box-shadow: 0 12px 10px 10px #000;
+    font-size: 1.3em;
+}
+
+.main-navigation ul li {
+    margin: 0 4em;
+    text-transform: uppercase;
+}
+
+.main-navigation ul li:last-child {
+    margin: 0 0;
+    border-left: 1px solid $kuspawhite;
+    padding-left: 2em;
+}
+
+.main-navigation ul li a {
+    color: $maskuspawhite;
+    font-size: .8em;
+    letter-spacing: .2em;
+}

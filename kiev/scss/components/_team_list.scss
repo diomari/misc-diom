@@ -1,0 +1,31 @@
+
+.team-list {
+    text-transform: uppercase;
+    background: #0B1822;
+    border-top: 2px solid $main_bg_pop;
+    border-bottom: 2px solid $main_bg_pop;
+    h3 {
+        font-size: 1em;
+    }
+    .team-image {
+        min-height: 185px;
+        width: 85%;
+        margin: 0 auto;
+        background: #071119;
+        border: 2px solid #294A58;
+        box-shadow: 0 4px 10px 0 rgba(0,0,0,.8);
+        .team-roster {
+            font-size: .7em;
+            span {
+                font-weight: bold;
+            }
+        }
+    }
+    .team-container small {
+        font-size: .75em;
+        text-transform: uppercase;
+    }
+    .team-header {
+        margin: 0 auto;
+    }
+}
