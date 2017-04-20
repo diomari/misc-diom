@@ -17,14 +17,15 @@
         position: relative;
         .team-roster {
             display: none;
-            font-size: .5em;
+            font-size: .55em;
             position: absolute;
-            top: 20%;
+            top: 15%;
             bottom: 0;
-            left: 0;
-            right: 0;
+            left: 12px;
+            right: 12px;
             li {
-                margin-bottom: 12px;
+                text-transform: none;
+                margin-bottom: 10px;
                 &:last-child{
                     margin-bottom: 0;
                 }
