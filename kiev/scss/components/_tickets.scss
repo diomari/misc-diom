@@ -1,0 +1,18 @@
+.tickets-area {
+    background: linear-gradient(
+      rgba(0, 5, 20, 0.65),
+      rgba(0, 5, 20, 0.45)
+    ), url(images/bg_tickets.png) no-repeat center 55%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.tickets-area p {
+    font-size: 1.2em;
+}
+
+.sponsors-area {
+    background: #0F161B;
+}

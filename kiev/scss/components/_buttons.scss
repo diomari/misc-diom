@@ -1,0 +1,13 @@
+.btn-kiev {
+    border-radius: 0;
+    font-weight: bold;
+    color: $btn_color;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    border-color: $kuspawhite;
+    &:hover{
+    	color: $kuspawhite;
+    	background-color: $blue_jeans;
+    	border-color: $blue_jeans;
+    }
+}
